@@ -274,14 +274,17 @@ function App() {
                 ESCOLHA SUA TRANSFORMAÇÃO
               </h3>
               
-              {/* Basic Plan */}
+              {/* Plano Único */}
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <h4 className="font-archivo text-xl">PLANO BÁSICO</h4>
-                  <p className="text-2xl font-bold text-warning">R$19,90</p>
+                  <h4 className="font-archivo text-xl">MODO INVISÍVEL</h4>
+                  <p className="text-2xl font-bold text-warning">R$37,00</p>
                 </div>
+                <p className="text-lg text-gray-300">
+                  Comandos diários + desafios surpresa + reforço mental pelos próximos 7 dias
+                </p>
                 <a 
-                  href="https://gabrielamendoncaoficial.mycartpanda.com/checkout/183959811:1"
+                  href="https://gabrielamendoncaoficial.mycartpanda.com/checkout/183964906:1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-warning text-black font-archivo py-4 px-8 rounded-full text-lg hover-danger transition-all duration-300 text-center pulse btn-hover"
@@ -291,27 +294,6 @@ function App() {
                 <p className="text-sm text-gray-400 italic text-center">
                   "É menos que um lanche. Mas mais do que você já teve coragem de investir em verdade."
                 </p>
-              </div>
-
-              <hr className="border-border" />
-
-              {/* Premium Plan */}
-              <div className="space-y-4">
-                <div className="flex items-center justify-between">
-                  <h4 className="font-archivo text-xl">MODO INVISÍVEL</h4>
-                  <p className="text-2xl font-bold text-warning">R$29,90</p>
-                </div>
-                <p className="text-lg text-gray-300">
-                  Comandos diários + desafios surpresa + reforço mental pelos próximos 7 dias
-                </p>
-                <a 
-                  href="https://gabrielamendoncaoficial.mycartpanda.com/checkout/183964906:1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full bg-transparent text-warning font-archivo py-4 px-8 rounded-full text-lg border-2 border-warning hover:bg-warning hover:text-black transition-all duration-300 text-center"
-                >
-                  ATIVAR MODO INVISÍVEL
-                </a>
               </div>
             </div>
           </div>
